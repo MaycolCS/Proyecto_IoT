@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    margin: 0 auto;
+    font-family: 'Sulphur Point', sans-serif;
+    min-height: 100%;
+}
+
+section {
+    width: 90%;
+    margin-top: 0 auto;
+    margin-bottom: 0 auto;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-bottom: 5ex;
+    min-height: 80%;
+}
+
+a {
+    text-decoration: none;
+}
+
+article.encabezado {
+    width: 100%;
+    height: auto;
+    margin-top: 5ex;
+    padding-bottom: 10px;
+    border-bottom: 1px solid blue;
+
+}
+
+article.encabezado article.info {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+article.encabezado article.info h1, h2, h3 {
+    margin: 0px 0px 0px 15px;
+    text-align: center;
+}
+
+article.encabezado article.info h1 {
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+article.encabezado article.info h2 {
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+article.encabezado article.info h3 {
+    font-size: 25px;
+    margin-top: 3px;
+}
+
+article.cuerpo {
+    margin: auto;
+    width: auto;
+    height: auto;
+    padding-top: 40px;
+}
+
+article.cuerpo p {
+    width: 80%;
+    display: block;
+    margin: 5px auto 5px auto;
+    text-align: center;
+}
+
+article.cuerpo h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+article.cuerpo p.txt_p {
+    width: 50%;
+    border-radius: 20px;
+    margin: 10px auto 10px auto;
+    padding: 10px 25px 10px 25px;
+    border: 3px solid blue;
+    display: block;
+}
+
+article.cuerpo a.boton {
+    width: 20%;
+    height: auto;
+    display: block;
+    margin: 20px auto 10px auto;
+}
+
+article.cuerpo a button.boton {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    padding: 10px 25px 10px 25px;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+}
+
+article.cuerpo a.boton:hover {
+    width: 25%;
+}
+
+article.cuerpo a button.boton:hover {
+    background-color: rgb(54, 54, 253);
+}
+
+article.cuerpo form.formulario {
+    width: 50%;
+    margin: auto;
+    height: auto;
+    padding: 20px 15px 20px 15px;
+}
+
+article.cuerpo form.formulario label, input{
+    width: 50%;
+    height: 25px;
+    display: block;
+    margin: 5px auto 5px auto;
+    padding: 0px 5px 0px 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+article.cuerpo form button.boton {
+    display: block;
+    margin: 10px auto 10px auto;
+    width: 20%;
+    height: auto;
+    padding: 10px 25px 10px 25px;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+}
+
+article.cuerpo form button.boton:hover {
+    width: 25%;
+    background-color: rgb(54, 54, 253);
+}
+
+article.cuerpo #table_ingresos {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+article.cuerpo #table_ingresos tr th {
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #656b6b;
+    width: auto;
+    height: 5ex;
+}
+
+article.cuerpo #table_ingresos tr td {
+    text-align: center;
+    border: 1px solid #656b6b;
+    width: auto;
+    height: auto;
+}
